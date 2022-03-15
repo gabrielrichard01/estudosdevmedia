@@ -1,0 +1,19 @@
+h1 {
+    font-size: 32px;
+    font-family: 'Verdana';
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Verdana';
+    color: gray;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Verdana';
+}
+
+span {
+    font-weight: bold;
+}
