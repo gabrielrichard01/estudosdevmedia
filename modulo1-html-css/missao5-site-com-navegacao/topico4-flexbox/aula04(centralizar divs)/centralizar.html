@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            .container {
+                width: 100vw;
+                height: 100vh;
+                background: #6C7A89;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .box {
+                width: 300px;
+                height: 300px;
+                background: #fff;
+            }
+            body {
+                margin: 0px;
+            }
+
+            p{
+                align-content: flex-end;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+            </div>
+        </div>
+        <p>
+            Linhas 3 e 4: definimos as dimensões do container como 100% da largura (width) e altura (height) da página. Para isso, utilizamos as unidades vw e vh das CSS3, que representam, respectivamente, a largura e a altura da viewport;
+            Linha 5: alteramos a cor do plano de fundo da div container, para melhor simular o resultado visto na Figura 1;
+            Linha 6: definimos a propriedade display do container como flex. Essa é a configuração que faz com que, de fato, a div utilize o recurso de layout flexível (Flexbox);
+            Linha 7: com a propriedade flex-direction, fazemos com que os itens internos sejam dispostos horizontalmente, ou seja, em forma de linha (row);
+            Linha 8: configuramos a disposição dos elementos internos como centralizados na direção definida na propriedade anterior, ou seja, os itens ficarão no centro da linha (horizontalmente);
+            Linha 9: com a propriedade align-items definida como center, fazemos com que os elementos internos sejam também alinhados na vertical;
+            Linhas 11 a 15: configuramos a div box com o plano de fundo branco e dimensões fixas.
+            Linhas 16 a 18: removemos as margens do corpo do documento, fazendo assim com que a div container ocupe toda a página.
+        </p>
+    </body>
+</html>
