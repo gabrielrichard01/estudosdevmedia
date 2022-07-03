@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER(CABEÇALHO) - COMEÇO */
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.logo img{
+    margin-left: 160px;
+    margin-top: 12px;
+    width: 150px;
+}
+
+.links ul{
+    display: flex;
+    margin-left: 40rem;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.links a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+/* HEADER(CABEÇALHO) - FIM */
+
+/* MAIN - COMEÇO */
+
+/* SECTION BANNER - COMEÇO */
+#banner{
+    background-image: url('img/bg-estacao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 380px;
+}
+
+.banner-titulo{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 100%;
+}
+
+.banner-titulo h1{
+    color: white;
+    font-size: 80px;
+    text-shadow: 1px 3px 3px black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.banner-titulo p{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 3px 3px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* SECTION BANNER - FIM */
+
+/* SECTION SOBRECIDADE - COMEÇO */
+#sobrecidade h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.img-cidade{
+    text-align: center;
+}
+
+.img-cidade img{
+    width: 1000px;
+}
+
+.sobre-text{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sobre-text p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: rgb(63, 61, 61);
+}
+
+.sobre-text p::first-letter{
+    color: black;
+    font-weight: bold;
+}
+/* SECTION SOBRECIDADE - FIM */
+
+/* SECTION TURISMO - COMEÇO */
+#turismo{
+    background-color: #e9e9e9;
+    margin-top: 80px;
+    padding-bottom: 70px;
+}
+
+#turismo h2{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 60px;
+    margin-bottom: 34px;
+}
+
+.img-turismo{
+    text-align: center;
+}
+
+.img-turismo img{
+    width: 950px;
+}
+
+.text-turismo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-turismo p{
+    margin:  10px 0px;
+    color: rgb(63, 61, 61);
+}
+
+.text-turismo p::first-letter{
+    color: black;
+    font-weight: bold;
+}
+
+.text-turismo ul li{
+    list-style: none;
+    color: rgb(63, 61, 61);
+    padding-top: 10px;
+}
+
+.text-turismo li::before{
+    content: url("./img/seta.png");
+    margin-right: 8px;
+}
+/* SECTION TURISMO - FIM */
+
+/* SECTION GALERIA - COMEÇO */
+#galeria{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#galeria h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#galeria p{
+    padding-bottom: 20px;
+    color: rgb(63, 61, 61);
+}
+
+.fotos{
+    padding-bottom: 80px;
+}
+
+.fotos img{
+    width: 350px;
+    opacity: 0.5;
+}
+
+.fotos img:hover{
+    opacity: 1;
+}
+/* SECTION GALERIA - FIM */
+
+/* MAIN - FIM */
+
+/* FOOTER(RODAPÉ) - COMEÇO*/
+footer{
+    background-color: #f5c002;
+    padding: 15px 0px;
+}
+
+footer p{
+    text-align: center;
+}
+/* FOOTER(RODAPÉ) - FIM */

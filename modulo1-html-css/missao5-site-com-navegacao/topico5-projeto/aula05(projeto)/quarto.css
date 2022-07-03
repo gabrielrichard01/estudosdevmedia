@@ -1,0 +1,303 @@
+/* CONFIGURAÇÃO GLOBAL - COMEÇO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* CONFIGURAÇÃO GLOBAL - FIM */
+
+/* CABEÇALHO - COMEÇO */
+header{
+    height: 60px;
+    width: 100%;   
+}
+
+.header{
+    position: fixed;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.titulo{
+    color: rgb(63, 61, 61);
+    position: relative;
+    top: 12px;
+    left: 4em;
+    font-size: 24px;
+}
+
+.titulo span{
+    color: rgb(114, 162, 179);
+}
+
+.links{
+    color: rgb(85, 84, 84);
+    margin-right: 20px;
+    position: relative;
+    top: 12px;
+    left: 44em;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* CABELHO - FIM */
+
+/* MAIN - COMEÇO */
+
+/* BANNER - COMEÇO */
+.banner{
+    height: 130px;
+    background-image: url('./assets/img-fundo.jpg');
+    background-size: cover;
+}
+/* BANNER - FIM */
+
+/* SEÇÃO = QUARTO DE SOLTEIRO - COMEÇO*/
+.quarto_solteiro{
+    margin-top: 80px;
+}
+
+.quarto_solteiro h1{
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #454243;
+    margin-bottom: 25px;
+}
+
+.quarto_solteiro p{
+    color: #454243;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.img_solteiro{
+    display: flex;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.img_solteiro img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.titulo_solteiro h2{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+    color: #454243;
+    display: block;
+}
+
+.lista_solteiro{
+    color: #454243;
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.lista_solteiro ul{
+    margin: 0 auto;
+}
+
+.lista_solteiro ul li{
+    margin-top: 8px;
+}
+
+/* SEÇÃO = QUARTO DE SOLTEIRO - FIM*/
+
+/* SEÇÃO = QUARTO DE CASAL - COMEÇO*/
+.quarto_casal{
+    margin-top: 80px;
+}
+
+.quarto_casal h1{
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #454243;
+    margin-bottom: 25px;
+}
+
+.quarto_casal p{
+    color: #454243;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.img_casal{
+    display: flex;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.img_casal img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.titulo_casal h2{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+    color: #454243;
+    display: block;
+}
+
+.lista_casal{
+    color: #454243;
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.lista_casal ul{
+    margin: 0 auto;
+}
+
+.lista_casal ul li{
+    margin-top: 8px;
+}
+
+/* SEÇÃO = QUARTO DE CASAL - FIM*/
+
+/* SEÇÃO = QUARTO FAMILIA - COMEÇO*/
+.quarto_familia{
+    margin-top: 80px;
+}
+
+.quarto_familia h1{
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #454243;
+    margin-bottom: 25px;
+}
+
+.quarto_familia p{
+    color: #454243;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.img_familia{
+    display: flex;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.img_familia img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.titulo_familia h2{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+    color: #454243;
+    display: block;
+}
+
+.lista_familia{
+    color: #454243;
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.lista_familia ul{
+    margin: 0 auto;
+}
+
+.lista_familia ul li{
+    margin-top: 8px;
+}
+
+/* SEÇÃO = QUARTO FAMILIA - FIM*/
+
+/* MAIN - FIM*/
+
+/* FOOTER (RODAPÉ) - COMEÇO */
+
+footer{
+    background-color: #2d7c5f;
+    height: 200px;
+}
+
+.footer_contato{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #2f6d56;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer_contato h2{
+    color: white;
+    font-size: 25px;
+    width: 25%;
+}
+
+.endereco{
+    color: white;
+    display: flex;
+    width: 25%;
+}
+
+.icone_endereco img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.telefone{
+    display: flex;
+    color: white;
+    width: 20em;
+}
+
+.telefone p{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.icone_telefone img{
+    width: 35px;
+    margin-left: 25px;
+}
+
+.calendario{
+    display: flex;
+    color: white;
+}
+
+.icone_calendario img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.direitos{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER (RODAPÉ) - FIM */

@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    height: 60px;
+    width: 100%;   
+}
+
+.header{
+    position: fixed;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.titulo{
+    color: rgb(63, 61, 61);
+    position: relative;
+    top: 12px;
+    left: 4em;
+    font-size: 24px;
+}
+
+.titulo span{
+    color: rgb(114, 162, 179);
+}
+
+.links{
+    color: rgb(85, 84, 84);
+    margin-right: 20px;
+    position: relative;
+    top: 12px;
+    left: 44em;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.banner{
+    height: 565px;
+    background-image: url('./assets/img-fundo.jpg');
+    background-size: cover;
+}
+
+.text-dest{
+    background-color: rgba(0, 128, 0, 0.288);
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 520px;
+    height: 200px;
+    position: relative;
+    top: 8em;
+    left: 26em;
+}
+
+.text-dest h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.text-dest p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.quarto-desc h2{
+    color: rgb(73, 73, 73);
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.quarto-desc p{
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.quartos{
+    display: flex;
+    margin-top: 40px;
+    max-width: 1000px;
+    text-align: center;
+    position: relative;
+    left: 12em;
+}
+
+.quartos img{
+    width: 300px;
+}
+
+.quart-sol p, .quart-casal p, .quart-fam p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.quart-sol, .quart-casal, .quart-fam{
+    display: block;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(0, 56, 0);
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.rota-desc h2{
+    color: rgb(73, 73, 73);
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rota-desc p{
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    padding-bottom: 2.5em;
+    text-align: center;
+}
+
+.iframe iframe{
+    width: 100%;
+    height: 350px;
+    padding-bottom: 40px;
+}
+
+.sobre-pou h2{
+    color: rgb(73, 73, 73);
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sobre-pou .sobre-paragrafo{
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    padding-bottom: 2.5em;
+    text-align: center;
+}
+
+.pousada h3, .alimentacao h3, .quarto h3, .recepcao h3{
+    padding-bottom: 15px;
+    padding-top: 20px;
+    color: rgb(73, 73, 73);
+}
+
+.pousada p, .alimentacao p, .quarto p, .recepcao p{
+    color: rgb(73, 73, 73);
+}
+
+
+.img_pousada{
+    background-image: url('./assets/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100px;
+    margin-left: 22em;
+}
+
+.img_alimentacao{
+    background-image: url('./assets/img3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100px;
+    margin-left: 22em;
+    position: relative;
+    top: -5em;
+}
+
+.img_quarto{
+    background-image: url('./assets/img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100px;
+    margin-left: 22em;
+    position: relative;
+    top: -7.5em;
+}
+
+.img_recepcao{
+    background-image: url('./assets/img5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100px;
+    margin-left: 22em;
+    position: relative;
+    top: -6em;
+}
+
+.sobre-desc{
+    margin: 0 auto;
+    width: 74%;
+    display: flex;
+}
+
+.esquerda{
+    width: 50%;
+}
+
+.direita{
+    margin-left: 30px;
+    width: 50%;
+}
+
+.pousada_text{
+    width: 78%;
+    margin-bottom: -80px;
+}
+
+.alimentacao_text{
+    width: 57%;
+    position: relative;
+    top: 18px;
+}
+
+.quarto_text{
+    width: 72%;
+}
+
+.recepcao_text{
+    margin-top: -63px;
+}
+
+footer{
+    background-color: #2d7c5f;
+    height: 200px;
+}
+
+.footer_contato{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #2f6d56;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer_contato h2{
+    color: white;
+    font-size: 25px;
+    width: 25%;
+}
+
+.endereco{
+    color: white;
+    display: flex;
+    width: 25%;
+}
+
+.icone_endereco img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.telefone{
+    display: flex;
+    color: white;
+    width: 20em;
+}
+
+.telefone p{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.icone_telefone img{
+    width: 35px;
+    margin-left: 25px;
+}
+
+.calendario{
+    display: flex;
+    color: white;
+}
+
+.icone_calendario img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.direitos{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
