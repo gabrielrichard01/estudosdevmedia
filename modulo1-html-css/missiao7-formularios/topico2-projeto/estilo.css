@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+/* HEADER - COMEÇO */
+header{
+    width: 100%;
+    height: 60px;
+}
+
+.logo a{
+    max-width: 1204px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 34px;
+}
+
+.logo h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: #9275ab;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+/* HEADER - FIM */
+
+/* MAIN - COMEÇO */
+
+/* SECTION FORMULARIO - COMEÇO*/
+#formulario{
+    height: 770px;
+    padding-top: 50px;
+    background-image: url("imagens/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.cadastro{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 18px;
+    background-color: white;
+}
+
+.titulo{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: #5d15d1;
+}
+
+.titulo img{
+    width: 18px;
+    transform: rotate(-45deg);
+}
+
+.titulo h2{
+    color: white;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+form{
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.titulo-form h3{
+    padding:20px 0px;
+    font-size: 22px;
+}
+
+.nome label, .email label, .telefone label{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.nome input, .email input, .telefone input{
+    width: 100%;
+    padding: 8px 0px;
+    padding-left: 6px;
+}
+
+.data{
+    display: flex;
+}
+
+.ida{
+    margin-right: 20px;
+}
+
+.ida, .volta{
+    width: 100%;
+}
+
+.ida label, .volta label{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.ida input, .volta input{
+    width: 100%;
+    padding: 8px 0px;
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+.local{
+    display: flex;
+}
+
+.origem label, .destino label{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.local select{
+    padding: 8px 0px;
+    padding-left: 6px;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.origem{
+    width: 100%;
+    margin-right: 20px;
+}
+
+.destino{
+    width: 100%;
+}
+
+.titulo-infantil{
+    margin: 10px 0px;
+}
+
+.resposta{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sim input, .nao input{
+    margin-right: 5px;
+}
+
+.nao{
+    padding-left: 70px;
+}
+
+.titulo-hospedagem{
+    margin-bottom: 10px;
+}
+
+.beneficio{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.piscina{
+    margin-right: 30px;
+}
+
+.wifi{
+    margin-right: 60px;
+}
+
+.garagem{
+    margin-right: 25px;
+}
+
+.btn button{
+    font-size: 18px;
+    border: none;
+    background-color: #5d15d1;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+/* SECTION FORMULARIO - FIM*/
+
+/* SECTION TURISMO - COMEÇO*/
+
+#turismo{
+    background-color: lightgray;
+    padding: 0px 40px;
+}
+
+.oferta{
+    padding-top: 40px;
+    height: 580px;
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+.titulo-oferta h2{
+    font-size: 22px;
+}
+
+.titulo-oferta p{
+    padding: 15px 0px;
+}
+
+/* DIV CIDADE - COMEÇO */
+
+.cidade{
+    display: flex;
+}
+
+.nome-cidade-gr{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    padding: 5px 0px 5px 10px;
+    position: relative;
+    top: 93.5%;
+    width: 100%;
+}
+
+.nome-cidade{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    padding: 5px 0px 5px 10px;
+    position: relative;
+    top: 86%;
+    width: 100%;
+}
+
+.esquerda{
+    width: 49%;
+    height: 450px;
+}
+
+.rio-gr{
+    background-image: url("imagens/rio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.centro{
+    width: 24%;
+    height: 450px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.manaus{
+    background-image: url("imagens/manaus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 48%;
+}
+
+.rio{
+    background-image: url("imagens/niteroi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 48%;
+    margin-top: 18px;
+}
+
+.direita{
+    width: 24%;
+    height: 450px;
+}
+
+.sao-paulo{
+    background-image: url("imagens/saopaulo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 48%;
+}
+
+.maranhao{
+    background-image: url("imagens/maranhao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 48%;
+    margin-top: 18px;
+}
+
+/* DIV CIDADE - FIM */
+/* DIV NATUREZA - COMEÇO */
+
+.natureza{
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+.titulo-natureza h2{
+    font-size: 22px;
+}
+
+.titulo-natureza p{
+    padding: 15px 0px;
+}
+
+.paisagem{
+    display: flex;
+}
+
+.lencois{
+    width: 50%;
+}
+
+.cachoeira{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.descricao{
+    margin-top: 3px;
+    margin-bottom: 30px;
+    margin-right: 24px;
+    padding: 15px 0px 15px 15px;
+    width: 100%;
+    background-color: white;
+}
+
+.descricao h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.descricao p{
+    font-size: 14px;
+}
+
+/* DIV NATUREZA - FIM */
+/* SECTION TURISMO - FIM */
+/* MAIN - FIM */
+/* FOOTER - COMEÇO */
+
+footer{
+    width: 100%;
+    background-color: #5d15d1;
+    padding-bottom: 10px;
+}
+
+.contato-rede{
+    max-width: 1204px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-rodape{
+    margin-top: 10px;
+}
+
+.titulo-rodape h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.rodape-logo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.rodape-logo img{
+    width: 20px;
+}
+
+.rodape-logo p{
+    color: white;
+    margin-left: 10px;
+}
+/* FOOTER - FIM */
+
+/* RESPOSIVO 768 - COMEÇO*/
+
+@media (max-width: 768px){
+    .btn button{
+        width: 100%;
+    }
+    /* CLASS OFERTA - COMEÇO */
+    .oferta{
+        height: 1240px;
+    }
+
+    .cidade{
+        display: block;
+    }
+
+    .nome-cidade-gr{
+        position: relative;
+        top: 172px;
+    }
+
+    .esquerda, .centro, .direita{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .esquerda{
+        height: 220px;
+    }
+
+    .rio-gr{
+        background-position: 50% 50%;
+    }
+
+    .centro{
+        margin: 0px;
+    }
+    /* CLASS OFERTA - FIM */
+
+    /* CLASS NATUREZA - COMEÇO*/
+
+    .natureza{
+        height: 1330px;
+    }
+
+    .paisagem{
+        display: block;
+    }
+
+    .lencois{
+        width: 100%;
+    }
+
+    .cachoeira{
+        width: 100%;
+        margin: 0px;
+    }
+    /* CLASS NATUREZA - FIM */
+
+    /* FOOTER - COMEÇO*/
+
+    footer{
+        height: 310px;
+    }
+
+    .contato-rede{
+        display: block;
+    }
+
+    .contato, .redes{
+        width: 35%;
+        padding-top: 3px;
+        margin: 0 auto;
+    }
+
+    /* FOOTER - FIM */
+}
+
+/* RESPONSIVO 768 - FIM */
+
+/* RESPONSIVO 540 - COMEÇO*/
+
+@media (max-width: 540px){
+    #formulario{
+        height: 1000px;
+    }
+
+    .data, .local, .resposta{
+        display: block;
+    }
+
+    .nao{
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .beneficio{
+        display: block;
+        margin: 0px;
+    }
+
+    .piscina, .wifi, .garagem, .suite{
+        padding-bottom: 1px;
+    }
+
+    .natureza{
+        height: 980px;
+    }
+
+    .contato, .redes{
+        width: 50%;
+    }
+}
+
+/* RESPONSIVO 540 - FIM */
