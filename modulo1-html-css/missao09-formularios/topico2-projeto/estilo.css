@@ -509,3 +509,8 @@ footer{
 }
 
 /* RESPONSIVO 540 - FIM */
+
+div{
+    display: flex;
+    justify-content: flex-end;
+}
